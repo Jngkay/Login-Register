@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.column {
+    float: left;
+    width: 80%;
+    height: 500px;
+    
+  }
+  /* Clear floats after the columns */
+#left{
+    width: 45%;
+    background: url("logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 2px 5px 0 gray;
+    
+}
+#right{
+    width: 35%;
+    box-shadow:  0px 2px 5px 0 gray;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;  
+}
+.row{
+    margin-left: 190px;
+    margin-top: 120px;
+    
+
+}
+form{
+    align-items: center;
+    display: block;
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 100%;
+}
+#input{
+    display: block;
+    margin-top: 50px;
+    border: none;
+    border-bottom: 1px solid #03989E;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 85%;
+    outline-color: #03989E;
+
+}
+
+#login-title{
+    display: block;
+    margin-top: 30px;
+    font-size: 35px;
+    margin-left: 15px;
+}
+input#remember_name{
+    margin-top: 50px;
+}
+#remember{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+#need-account{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#signup{
+    color: #03989E !important;
+    text-decoration: none;
+}
+#login-btn{
+    width: 85%;
+    margin-top: 15px;
+    height: 40px;
+    background: #03989E;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+input[name = "remember-me"]{
+    accent-color: #03989E;
+}

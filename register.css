@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("bg-register.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.form-input{
+    border: 1px solid #03989E;
+    align-items: center;
+    text-align:center;
+    width: 50%;
+    margin-left: 310px;
+    margin-top: 40px;
+    box-shadow: 0px 6px 8px 0 #b1c3c4;
+}
+#register{
+    text-align: center;
+}
+#register{
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#input{
+    display: block;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid #03989E;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 85%;
+    outline-color: #03989E;
+    margin-left: 50px;
+}
+.gender li{
+    list-style: none;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.gender{
+    margin-right: 275px;
+}
+#label_gender{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.section{
+    margin-right: 340px;
+    font-size: 20px;
+}
+#section{
+    background: #AAE3E6;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: none;
+}
+#section:hover{
+    background: #91d8dd;
+    border: none;
+}
+#register-btn{
+    background: #03989E;
+    width: 25%;
+    height: 40px;
+    border: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[name="gender"]{
+    accent-color: #03989E;
+}
+#login{
+    color: #03989E !important;
+    text-decoration: none;
+}
+#have-account{
+    margin-bottom: 20px;
+    font-size: 15x;
+}
