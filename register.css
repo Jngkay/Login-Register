@@ -1,4 +1,4 @@
-*{
+/*{
     margin: 0;
     padding: 0;
 }
@@ -89,3 +89,16 @@ input[name="gender"]{
     margin-bottom: 20px;
     font-size: 15x;
 }
+.right{
+    background: url("registerLogo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+*/
+.right{
+    background: url("registerLogo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
